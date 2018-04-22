@@ -1,0 +1,8 @@
+{
+  "name": "parcel_try",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Opelar/parcel_try.git",
+  "author": "opelar <23897631@qq.com>",
+  "license": "MIT"
+}
