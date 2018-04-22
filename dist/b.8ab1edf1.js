@@ -138,39 +138,25 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":8}],6:[function(require,module,exports) {
+},{"./bundle-url":8}],14:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":7}],5:[function(require,module,exports) {
+},{"_css_loader":7}],12:[function(require,module,exports) {
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+var _b = require("../css/b.css");
 
-var _main = require("../css/main.css");
-
-var _main2 = _interopRequireDefault(_main);
+var _b2 = _interopRequireDefault(_b);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = function () {
-  console.log(_main2.default.main);
-}; // 导入一个 CSS module
-},{"../css/main.css":6}],4:[function(require,module,exports) {
-"use strict";
-
-var _main = require("./main");
-
-var _main2 = _interopRequireDefault(_main);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-(0, _main2.default)();
-},{"./main":5}],9:[function(require,module,exports) {
+(function () {
+  console.log("aaa");
+})();
+},{"../css/b.css":14}],15:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -339,5 +325,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[9,4])
-//# sourceMappingURL=/js.d2535a5e.map
+},{}]},{},[15,12])
+//# sourceMappingURL=/b.8ab1edf1.map
