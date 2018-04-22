@@ -1,4 +1,4 @@
-import classes from "../css/index.css";
+import "../css/index.css";
 
 import mount from "./mount";
 import LikeButton from "./LikeButton";

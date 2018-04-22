@@ -11,7 +11,6 @@ class LikeButton extends Component {
   }
 
   render() {
-    // console.log(this.props);
     return `
       <button class='like-btn' style="background-color: ${this.props.bgColor}">
         <span class='like-text'>

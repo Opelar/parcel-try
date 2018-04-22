@@ -151,7 +151,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var mount = function mount(component, wrapper) {
-  console.log(wrapper);
   wrapper.appendChild(component._renderDOM());
   component.onStateChange = function (oldEl, newEl) {
     wrapper.insertBefore(newEl, oldEl);
@@ -263,7 +262,6 @@ var LikeButton = function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      // console.log(this.props);
       return "\n      <button class='like-btn' style=\"background-color: " + this.props.bgColor + "\">\n        <span class='like-text'>\n          " + (this.state.isLiked ? "取消" : "点赞") + "\n        </span>\n        <span class=\"like-icon\">\uD83D\uDC4D</span>\n      </button>\n    ";
     }
   }]);
@@ -275,9 +273,7 @@ exports.default = LikeButton;
 },{"./component":7}],2:[function(require,module,exports) {
 "use strict";
 
-var _index = require("../css/index.css");
-
-var _index2 = _interopRequireDefault(_index);
+require("../css/index.css");
 
 var _mount = require("./mount");
 
@@ -320,7 +316,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '41325' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '37987' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
