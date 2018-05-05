@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/Opelar/parcel_try.git",
   "author": "opelar <23897631@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0"
+  }
 }
